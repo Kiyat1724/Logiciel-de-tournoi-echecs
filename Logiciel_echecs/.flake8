@@ -1,0 +1,13 @@
+[flake8]
+# Longueur max par ligne
+max-line-length = 119
+
+# Ignorer certains codes d'erreur communs (optionnel)
+ignore = E203, W503, F401
+
+# Fichiers et dossiers à exclure
+exclude = .venv,__pycache__,docs,tests
+
+# Format de sortie HTML
+format = html
+htmldir = flake8-report
