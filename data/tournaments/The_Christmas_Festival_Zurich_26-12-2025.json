@@ -1,0 +1,16 @@
+{
+  "name": "The_Christmas_Festival_Zurich",
+  "location": "Zurich",
+  "start_date": "26/12/2025",
+  "end_date": "30/12/2025",
+  "num_rounds": 4,
+  "current_round": 0,
+  "rounds": [],
+  "players": [
+    "MN70777",
+    "JK31516",
+    "FK31015",
+    "KL31117"
+  ],
+  "description": "This is an annual event during the Christmas festivities that brings together several world chess players to participate in this Swiss championship, which was established in 1889."
+}

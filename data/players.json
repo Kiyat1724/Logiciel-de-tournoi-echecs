@@ -1,0 +1,50 @@
+[
+  {
+    "last_name": "Fisher",
+    "first_name": "Bobby",
+    "birth_date": "10/01/2010",
+    "national_id": "AB31037"
+  },
+  {
+    "last_name": "Harmon",
+    "first_name": "Beth",
+    "birth_date": "23/10/2000",
+    "national_id": "MN70777"
+  },
+  {
+    "last_name": "Clarson",
+    "first_name": "Alix",
+    "birth_date": "29/10/2010",
+    "national_id": "BC11047"
+  },
+  {
+    "last_name": "Sam",
+    "first_name": "Tan",
+    "birth_date": "12/05/2007",
+    "national_id": "JK31516"
+  },
+  {
+    "last_name": "Asterix",
+    "first_name": "Tom",
+    "birth_date": "25/10/2012",
+    "national_id": "DG24012"
+  },
+  {
+    "last_name": "Simpson",
+    "first_name": "Lisa",
+    "birth_date": "12/05/2007",
+    "national_id": "FK31015"
+  },
+  {
+    "last_name": "Ding",
+    "first_name": "Liren",
+    "birth_date": "12/05/2005",
+    "national_id": "IJ31116"
+  },
+  {
+    "last_name": "Lee",
+    "first_name": "Alice",
+    "birth_date": "12/08/2001",
+    "national_id": "KL31117"
+  }
+]

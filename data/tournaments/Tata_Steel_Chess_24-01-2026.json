@@ -1,0 +1,20 @@
+{
+  "name": "Tata_Steel_Chess",
+  "location": "Los Angeles",
+  "start_date": "24/01/2026",
+  "end_date": "12/02/2026",
+  "num_rounds": 4,
+  "current_round": 0,
+  "rounds": [],
+  "players": [
+    "AB31037",
+    "MN70777",
+    "BC11047",
+    "JK31516",
+    "DG24012",
+    "FK31015",
+    "IJ31116",
+    "KL31117"
+  ],
+  "description": "The tata Steel Chess Tournament is one of the most prestigious events in the international chess calendar. They attract in the worlds very best chess grandmasters and the emerging top talents, along with thousands of amateur players, live event visitors and online visitors from around the world."
+}
