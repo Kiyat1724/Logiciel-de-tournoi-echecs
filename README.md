@@ -28,12 +28,13 @@ Toutes les commandes pip install suivantes s'appliqueront seulement à ce projet
    flake8-html → génère un rapport visuel (HTML) du résultat.
 
 ## Exécution
-Le CLI est un menu interactif dans le terminal. 
+Le CLI est un menu interactif dans le terminal.
+L'interface CLI s'ouvrira avec le menu.  
 Nous pouvons naviguer en entrant simplement des nombres correspondant aux options.
 
 => Lancer le CLI :
 Pour lancer notre programme, on se positionne toujours dans notre terminal (et notre ven activé), et on tape : 
-python .\views\cli.py
+python .\main.py
 
 Exemple d'affichage : 
 === Centre échecs ===
@@ -43,6 +44,7 @@ Exemple d'affichage :
 4) Lister les tournois existants
 5) Charger un tournoi
 6) Quitter
+7) Lancer un tournoi 
 Tape 1 pour ajouter un joueur, 3 pour créer un tournoi, etc. 
 Toutes les données sont sauvegardées automatiquement dans des fichiers JSON. 
 
