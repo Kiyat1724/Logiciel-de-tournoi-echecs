@@ -4,7 +4,7 @@
   "start_date": "24/01/2026",
   "end_date": "12/02/2026",
   "num_rounds": 4,
-  "current_round": 1,
+  "current_round": 2,
   "rounds": [
     {
       "name": "Round 1",
@@ -49,6 +49,53 @@
           "player2": [
             "BC11047",
             null
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Round 2",
+      "start_datetime": "07/11/2025 14:24:52",
+      "end_datetime": "07/11/2025 14:28:31",
+      "games": [
+        {
+          "player1": [
+            "MN70777",
+            2.0
+          ],
+          "player2": [
+            "AB31037",
+            4.0
+          ]
+        },
+        {
+          "player1": [
+            "KL31117",
+            6.0
+          ],
+          "player2": [
+            "DG24012",
+            12.0
+          ]
+        },
+        {
+          "player1": [
+            "BC11047",
+            23.0
+          ],
+          "player2": [
+            "JK31516",
+            5.0
+          ]
+        },
+        {
+          "player1": [
+            "FK31015",
+            5.0
+          ],
+          "player2": [
+            "IJ31116",
+            9.0
           ]
         }
       ]
