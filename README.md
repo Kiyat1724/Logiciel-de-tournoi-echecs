@@ -1,17 +1,99 @@
+# 🧩 Système de gestion de tournoi d’échecs
+
+## 🎯 Contexte métier
+
+Ce projet simule un besoin réel de gestion d’événements structurés, où plusieurs participants doivent être organisés, suivis et évalués selon des règles précises.
+
+Ce type de problématique se retrouve dans de nombreux environnements professionnels :
+•	gestion de projets
+•	gestion de ressources humaines
+•	organisation d’événements
+•	systèmes de suivi (data / conformité / audit)
+
+L’objectif est de proposer une solution permettant de structurer, automatiser et fiabiliser la gestion d’un tournoi.
+
+
+## 🚀 Objectif du projet
+
+Développer une application Python permettant de :
+•	gérer des joueurs et leurs informations
+•	organiser des tournois
+•	générer automatiquement des matchs
+•	enregistrer les résultats
+•	suivre l’évolution du tournoi
+
+
+⚙️ Fonctionnalités principales
+
+•	Création et gestion des joueurs
+•	Création de tournois
+•	Génération automatique des paires de matchs
+•	Enregistrement des scores
+•	Sauvegarde des données
+•	Interface en ligne de commande
+
+
+## 🧠 Apports fonctionnels
+
+Ce projet met en évidence des compétences directement transférables au métier de consultante fonctionnelle :
+•	Analyse de besoin : compréhension d’un système avec règles métier
+•	Modélisation des données : structuration des joueurs, matchs et tournois
+•	Logique métier : gestion des appariements et des scores
+•	Fiabilisation des processus : réduction des erreurs humaines
+•	Vision produit : conception d’un outil utilisable et structuré
+
+
+## 💻 Compétences techniques mobilisées
+
+•	Python
+•	Programmation orientée objet (POO)
+•	Gestion de fichiers / persistance des données
+•	Structuration du code (modularité)
+•	Respect des bonnes pratiques (PEP8)
+
+📦 Installation
+git clone https://github.com/Kiyat1724/Logiciel-de-tournoi-echecs.git
+cd Logiciel-de-tournoi-echecs
+pip install -r requirements.txt
+
+▶️ Utilisation
+python main.py
+
+🔍 Améliorations possibles
+•	Ajout d’une interface web
+•	Intégration d’une base de données (SQLite, PostgreSQL)
+•	Ajout de statistiques et tableaux de bord
+•	Export des résultats (CSV / PDF)
+•	Gestion multi-tournois avancée
+
+🧭 Positionnement professionnel
+Ce projet s’inscrit dans une démarche de reconversion vers un rôle de consultante fonctionnelle orientée data et cybersécurité, en mettant en avant :
+•	une capacité à comprendre des problématiques métier
+•	une compétence à les traduire en solutions techniques
+•	une sensibilité à la structuration et à la fiabilité des données
+
+👤 Auteur
+Projet réalisé dans le cadre de la formation développeur Python.
+En reconversion vers les métiers de la cybersécurité (gouvernance, risque, conformité) avec une forte appétence pour les problématiques data et métier.
+
+
+## ⚙️ Documentation technique
+
+### Description
 # Centre échecs - Programme de gestion de tournois (CLI)
 Ce programme en Python permet de gérer des tournois d'échecs depuis le terminal (en mode texte).  
-Ce projet nous a permet d'apprendre :   
+Ce projet m'a permet d'apprendre :   
 la manipulation des classes (Player, Tournament, Round, etc.),  
 la sauvegarde des données dans des fichiers (JSON),  
 l'utilisation des modules Python organisés (models, views, controllers),  
 et comment écrire du code propre en respectant les standards (flake8).  
 CLI signifie Command Line Interface, c’est-à-dire une interface textuelle avec un menu.  
 
-## Installation
-Avant de lancer notre programme, il faut créer un environnement virtuel pour isoler les dépendances Python (et éviter de casser d'autres projets sur notre ordinateur en local).  
+### Installation
+Avant de lancer le programme, il faut créer un environnement virtuel pour isoler les dépendances Python (et éviter de casser d'autres projets sur notre ordinateur en local).  
 
 #### 1. Crée un environnement virtuel Python 3.8+ :  
-on ouvre notre terminal (PowerShell) dans le dossier du proet, puis on tape :  
+on ouvre le terminal (PowerShell) dans le dossier du proet, puis on tape :  
    **python -m venv .venv**  
 Cela crée un dossier caché .venv contenant une copie propre de Python.   
 
@@ -23,17 +105,18 @@ Toutes les commandes pip install suivantes s'appliqueront seulement à ce projet
 #### 2. Installer dépendances :  
    **pip install -r requirements.txt**  
 
-   => Cela installe les outils nécessaires à notre projet, notamment:   
+   => Cela installe les outils nécessaires à mon projet, notamment:   
    flake8 → vérifie la qualité de notre code.  
    flake8-html → génère un rapport visuel (HTML) du résultat.  
 
-## Exécution
+
+### Exécution
 Le CLI est un menu interactif dans le terminal.  
 L'interface CLI s'ouvrira avec le menu.    
 Nous pouvons naviguer en entrant simplement des nombres correspondant aux options.  
 
 => Lancer le CLI :  
-Pour lancer notre programme, on se positionne toujours dans notre terminal (et notre ven activé), et on tape :   
+Pour lancer mon programme, on se positionne toujours dans le terminal (et notre ven activé), et on tape :   
 **python .\main.py**  
 
 Exemple d'affichage :   
@@ -50,21 +133,22 @@ Toutes les données sont sauvegardées automatiquement dans des fichiers JSON.
 
 
 ## Fichiers de données
-Nous stockons les données dans les fichiers suivants :   
+J'ai stocké les données dans les fichiers suivants :   
 - data/players.json     # contient la liste des joueurs enregistrés   
 - data/tournaments/*.json  # contient les tournois sauvegardés (un fichier par tournoi)  
 => Nous pouvons ouvrir ces fichiers avec un éditeur de texte pour voir les informations enregistrées (en format JSON, lisible par nous).  
 
 Les fichiers sont sauvegardés automatiquement après chaque modification.  
 
-## Flake8 & rapport HTML
-Nous avons besoin de flake8, un outil qui vérifie notre code Python et nous indique les erreurs de style ou les oublis.   
+
+### Flake8 & rapport HTML
+J'avais besoin de flake8, un outil qui vérifie mon code Python et m'indique les erreurs de style ou les oublis.   
 ce qu'on appelle du linting ("peluchage" en français).   
 par exemple : si on n'oublies une majuscule, la ligne de code trop longue, ou si nous n'avons pas mis un espace après une virgule, flake8 va nous le signaler.   
 
 Pourquoi il est nécessaire de vérifier la qualité du code (Flake8)?  
-C'est qu'avant de livrer notre code, il est important qu'il respecte les règles de style Python (PEP8);  
-Cela rend notre code plus clair, plus lisible, et plus facile à maintenir pour toute une équipe.   
+C'est qu'avant de livrer le code, il est important qu'il respecte les règles de style Python (PEP8);  
+Cela rend mon code plus clair, plus lisible, et plus facile à maintenir pour toute une équipe.   
 
 Pour vérifier le style et générer le rapport HTML :  
 flake8 --config .flake8 --format=html --htmldir=flake8_rapport  
@@ -72,7 +156,7 @@ flake8 --config .flake8 --format=html --htmldir=flake8_rapport
 Pour rappel, flake8-html est une extension de flake8 qui génère un rapport visuel en HTML (une page web lisible dans notre navigateur) au lieu de simples lignes dans le   terminal.  
 
 => Comment l'installer:   
-Depuis notre dossier de projet, on tape dans notre terminal:   
+Depuis notre dossier de projet, on exécute dans notre terminal:   
 **pip install flake8 flake8-html**  
 Nous aurons comme résultats : les deux outils nécessaires.   
 
